@@ -4,7 +4,7 @@ import UsersSection from "@/components/UsersSection";
 import LoadMore from "@/components/LoadMore";
 
 import { fetchUsers } from "@/utils";
-import type { UsersResponse } from "@/utils"
+import type { UsersResponse } from "@/utils";
 
 export default async function Users() {
   let users: UsersResponse | undefined = await fetchUsers(1);
@@ -21,5 +21,5 @@ export default async function Users() {
         <LoadMore from={2} total={users.total_pages} />
       </Suspense>
     </main>
-  )   
+  );
 }

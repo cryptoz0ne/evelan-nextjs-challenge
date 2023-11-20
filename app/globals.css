@@ -14,11 +14,11 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 main {
-  @apply w-full mx-auto max-w-screen-lg p-4;
+  @apply w-full mx-auto max-w-screen-lg px-4 py-6;
 }
 
 h1 {

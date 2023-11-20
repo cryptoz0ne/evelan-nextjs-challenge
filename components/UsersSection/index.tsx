@@ -13,5 +13,5 @@ export default function UsersSection({ users }: { users: User[] }) {
         </div>
       ))}
     </div>
-  )
+  );
 }
