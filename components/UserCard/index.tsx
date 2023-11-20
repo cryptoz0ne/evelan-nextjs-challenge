@@ -11,6 +11,7 @@ export default function UserCard({ user }: { user: User }) {
         height="100"
         className="rounded-full"
         style={{ width: "60px", height: "60px", objectFit: "cover" }}
+        priority
       />
       <p>{user.id}</p>
       <p>{user.email}</p>
